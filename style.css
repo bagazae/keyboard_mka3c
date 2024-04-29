@@ -1,0 +1,167 @@
+/*html reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: ;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*micro clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+/*style*/
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #141411;
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+	background-color: #fac505;
+	
+}
+
+.header {
+
+
+}
+
+.header h1 {
+	font-size: 34px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+.header ul li {
+	display: inline;
+	padding-left: 20px;
+}
+
+.header a {
+	text-decoration: none;
+	color: red;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero {
+	height: 400px;
+	background-image: url(GAMBAR.jpg);
+	background-size: cover;
+	background-position: 0 -90px;
+}
+
+.main {
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+
+}
+
+.main h2 {
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 17px;
+	padding-top: 10px;
+}
+
+.main p {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+ul .list li {
+	display: inline-block;
+	font-size: 14px;
+}
+
+div .footer {
+	background-color: #0d0d0c;
+	padding: 14px;
+}
+
+.footer .copy {
+	color: #918d8d;
+	text-align: center;
+	font-size: 14px;
+
+}
+
+.sidebar {
+	width: 300px;
+	float: right;
+	margin: 20px;
+	border: 2px solid black;
+}
+
+.sidebar img {
+	width: 200px;
+	height: 90px;
+	padding-left: 50px;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+
+.sidebar p {
+	font-size: 17px;
+	text-align: center;
+	padding: 15px;
+
+}
